@@ -13,7 +13,7 @@ class Handler implements URLHandler {
             num += 1;
             return String.format("Number incremented!");
         } else {
-            if (url.getPath().contains("/add")) {
+            if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("count")) {
                     num += Integer.parseInt(parameters[1]);
