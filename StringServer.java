@@ -13,7 +13,7 @@ class StringHandler implements URLHandler {
             if (parameters[0].equals("s")){
                 count ++;
                 messages.append(String.format("%d. %s\n", count, parameters[1]));
-                return messages.toString()
+                return messages.toString();
       
         }
         return "404 Not Found!";    
