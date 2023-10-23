@@ -4,6 +4,8 @@
 ![Image](Lab 2 - Line 1.JPG)<br>
 ![Image](Lab 2 - Line 2.JPG)<br>
 
+Note:For the code for StringServer I copied NumberServer and made adjustments, code is not all by myself.<br>
+
 In both line 1 and line 2 the methods that are called are: for starters the main method, as it creates the server checking for port number for the server to even work. They both use handleRequest in StringHandler which is the code that actually deals with
 what is added after the port which here we had /add-message. It then appends the message into the messages StringBuilder. Which it then returns messages.toString. <br>
 
@@ -26,3 +28,5 @@ Honestly almost everything from week 2 and 3 is stuff that I didn't know prior t
 allowing us to access and use external servers I think is really cool. One really cool thing prior to this that I never even considered being able to do it being able to create a server
 like the one we did in this writeup that can effectively be the basis of things like blogs, discussion boards, etc. Having something updated through url is just something that was very
 foreign to me that I was exposed to during week 2 and 3.
+
+
