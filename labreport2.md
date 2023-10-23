@@ -1,7 +1,7 @@
 **Lab Report 2**
 
 ![Image](Lab 2 - StringServer.JPG)<br>
-![Image](Lab 1 - Line 1.JPG)<br>
+![Image](Lab 2 - Line 1.JPG)<br>
 ![Image](Lab 2 - Line 2.JPG)<br>
 
 In both line 1 and line 2 the methods that are called are: for starters the main method, as it creates the server checking for port number for the server to even work. They both use handleRequest in StringHandler which is the code that actually deals with
