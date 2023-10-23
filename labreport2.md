@@ -18,9 +18,9 @@ inputs when typing (hello vs how are you at the end). Also I want to mention tha
 and it would seperate based off that, checking for s at the [0] index and your input becoming the [1] index. Naturally count would increment each time so when we first typed hello
 it got incremeted up to 1, and then to 2 after we typed how are you. Messages would be updated to whatever it is we want to print, which is the number, and what it is we wanted to display as a message. <br>
 
-![Image]Lab 2 - Line 1.JPG<br>
-![Image]Lab 2 - Line 2.JPG<br>
-![Image]Lab 2 - proof.JPG<br>
+![Image](Lab 2 - Line 1.JPG)<br>
+![Image](Lab 2 - Line 2.JPG)<br>
+![Image](Lab 2 - proof.JPG)<br>
 
 Honestly almost everything from week 2 and 3 is stuff that I didn't know prior to learning about it from lecture/lab. Like for example the idea of how we can have private and public keys and the interaction of that
 allowing us to access and use external servers I think is really cool. One really cool thing prior to this that I never even considered being able to do it being able to create a server
