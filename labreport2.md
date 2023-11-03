@@ -6,8 +6,8 @@
 
 Note:For the code for StringServer I copied NumberServer and made adjustments, code is not all by myself.<br>
 
-For the first screenshot first in the just Hello line the methods that are called are: the main method, creating the serving checking the port number, and then handleRequest in StringHandler, which is what deals with the code that is added after the port
-using /add-message?s="whatever it is that you type". When this happens the message after s is appended onto the String in which the counter is also printed in messages.append. Here after the first run message count would increment from 0 to 1, hence it returns 1. Hello.  <br>
+For the first screenshot first in the just Hello line the methods that are called are: the main method, creating the server checking the port number. Then handleRequest in StringHandler, which is what deals with the code that is added after the port
+using /add-message?s="whatever it is that you type". It effecitvely takes in your input from what you want to be returned out on the server, and adds it. When this happens the message after s is appended onto the String in which the counter is also printed in messages.append. Here after the first run message count would increment from 0 to 1, hence it returns 1. Hello as the number is also part of the messages string. <br>
 
 For the second screenshot with both 1. Hello and 2.How are you, this time we aren't rerunning the main method code since the server is already running, we are simply adding a new message to this. So the main method is not run as it would reset the inputs. Then handleRequest
 in StringHandler once again is used in which it checks for a message that is added on to ?s= which in this case would be How are you. This is now added to the stringbuilder along with the count incremented by (now becoming 2) and ultimately it returns it on 
